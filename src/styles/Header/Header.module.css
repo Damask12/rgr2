@@ -1,0 +1,27 @@
+
+.header{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    background: rgb(50, 62, 167);
+    background: linear-gradient(90deg, rgb(10, 100, 100) 0%, rgb(11, 80, 105) 0%, rgb(6, 57, 59) 100%);
+}
+
+.header__column{
+    display: flex;
+}
+
+.header__column:nth-child(2){
+    margin-right: 25px;
+}
+
+.sign__btn{
+    width: 80px;
+    background: rgb(176, 100, 100);
+    cursor: pointer;
+    color: #fff;
+    height: 30px;
+    border-radius: 20px;
+}
